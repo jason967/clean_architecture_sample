@@ -12,8 +12,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  #domain_layer:
-   # path: ../domain_layer
+  domain_layer:
+   path: ../domain_layer/
 
   #dio
   dio: ^5.1.0
@@ -32,7 +32,10 @@ dependencies:
   retrofit_generator: ^6.0.0+1
   injectable_generator: ^2.1.5
   json_serializable: ^6.6.1
-  build_runner: ^2.3.3
+
+  #clean_annotation
+  clean_annotation:
+    path: ../../../clean_annotation/clean_annotation/
 
   cupertino_icons: ^1.0.2
 
@@ -40,12 +43,17 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
 
-
+  #clean_annotation
+  clean_annotation_generator:
+    path: ../../../clean_annotation/clean_annotation_generator/
+  
+  build_runner: ^2.3.3
+  
   flutter_lints: ^2.0.0
 
 
 flutter:
 
   uses-material-design: true
-  assets:
-    - assets/json/
+  # assets:
+  #   - assets/json/

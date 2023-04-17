@@ -121,6 +121,20 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.0.2"
+  clean_annotation:
+    dependency: "direct main"
+    description:
+      path: "../../../clean_annotation/clean_annotation"
+      relative: true
+    source: path
+    version: "1.0.0+1"
+  clean_annotation_generator:
+    dependency: "direct dev"
+    description:
+      path: "../../../clean_annotation/clean_annotation_generator"
+      relative: true
+    source: path
+    version: "1.0.0+1"
   clock:
     dependency: transitive
     description:
@@ -222,7 +236,7 @@ packages:
     source: sdk
     version: "0.0.0"
   flutter_lints:
-    dependency: "direct dev"
+    dependency: "direct main"
     description:
       name: flutter_lints
       sha256: aeb0b80a8b3709709c9cc496cdc027c5b3216796bc0af0ce1007eaf24464fd4c
@@ -235,7 +249,7 @@ packages:
     source: sdk
     version: "0.0.0"
   freezed:
-    dependency: "direct dev"
+    dependency: "direct main"
     description:
       name: freezed
       sha256: e819441678f1679b719008ff2ff0ef045d66eed9f9ec81166ca0d9b02a187454
@@ -259,7 +273,7 @@ packages:
     source: hosted
     version: "3.2.0"
   get_it:
-    dependency: "direct dev"
+    dependency: "direct main"
     description:
       name: get_it
       sha256: "290fde3a86072e4b37dbb03c07bec6126f0ecc28dad403c12ffe2e5a2d751ab7"
@@ -299,7 +313,7 @@ packages:
     source: hosted
     version: "4.0.2"
   injectable:
-    dependency: "direct dev"
+    dependency: "direct main"
     description:
       name: injectable
       sha256: c0cc829eb71c950889e2ae363f0755a9686852b5ea21584b5aefc106bce64d0c
@@ -307,7 +321,7 @@ packages:
     source: hosted
     version: "2.1.1"
   injectable_generator:
-    dependency: "direct dev"
+    dependency: "direct main"
     description:
       name: injectable_generator
       sha256: "0670348cfeb5f62de97977f21e11c826c41e4fcf2a34e686de3aa94f1d47a190"
@@ -339,7 +353,7 @@ packages:
     source: hosted
     version: "4.8.0"
   json_serializable:
-    dependency: "direct dev"
+    dependency: "direct main"
     description:
       name: json_serializable
       sha256: dadc08bd61f72559f938dd08ec20dbfec6c709bba83515085ea943d2078d187a
@@ -451,7 +465,7 @@ packages:
     source: hosted
     version: "4.0.1"
   retrofit_generator:
-    dependency: "direct dev"
+    dependency: "direct main"
     description:
       name: retrofit_generator
       sha256: "8f7edc6c8d6cbb5ad6064110a29ad8ce063b7177a39b373861e830349bae8ed2"
